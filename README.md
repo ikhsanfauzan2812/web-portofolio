@@ -28,8 +28,11 @@ web-portofolio/
 
 ---
 
-## 🚀 Check my portofolio here
-    [My Portofolio](https://portofolio-ikhsan.netlify.app/)  
+## 🚀 Check My Portfolio Here
+
+[My Portfolio](https://portofolio-ikhsan.netlify.app/)
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -40,13 +43,12 @@ web-portofolio/
 
 ---
 
-## 📸 Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)  
-*Description of the screenshot.*
+---
 
-![Screenshot 2](path/to/screenshot2.png)  
-*Description of the screenshot.*
+
+---
+
 
 ---
 
@@ -61,7 +63,4 @@ web-portofolio/
 
 ---
 
-## 📢 Acknowledgments
-
-Thanks to **Bootstrap** for making responsive design easy and intuitive. 🙏
 
