@@ -1,0 +1,579 @@
+* {
+  -webkit-user-select: none;  /* Safari */
+  -ms-user-select: none;      /* IE 10 and IE 11 */
+  user-select: none;          /* Standard syntax */
+}
+
+/* Allow text selection for specific elements that might need it (like input fields) */
+input, 
+textarea {
+  -webkit-user-select: text;  /* Safari */
+  -ms-user-select: text;      /* IE 10 and IE 11 */
+  user-select: text;          /* Standard syntax */
+}
+
+body {
+  font-family: 'Orbitron', sans-serif; 
+  background-color: #111; 
+  color: #39ff14; 
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color: #1a1a1a !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar {
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+  background-color: #111; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #39ff14; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff; /* Hover warna */
+}
+
+.card {
+  background-color: #111; 
+  border: none; 
+}
+
+.card-title {
+  color: #39ff14; 
+}
+
+.service-card {
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+#tentang img {
+  background: none; 
+  border: none; 
+  border-radius: 0; 
+}
+
+footer {
+  background-color: #1a1a1a !important;
+}
+
+footer a {
+  color: #39ff14;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #fff; 
+}
+
+.service-card img {
+  width: 20%; 
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.neon-glow {
+  color: #39FF14;
+  text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
+}
+.btn-neon {
+  box-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
+}
+.navbar-brand {
+  color: #39FF14 !important;
+  text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14, 0 0 20px #39FF14;
+}
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.jumbotron {
+  background: url('img/anner3.jpg') no-repeat center center; 
+  background-size: cover; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.social-icons-container {
+  width: 100%;
+}
+.social-icons {
+  display: flex;
+  gap: 0.9375rem;
+}
+.social-icon {
+  transition: all 0.3s ease;
+}
+.social-svg {
+  transition: all 0.3s ease;
+}
+.social-icon:hover .social-svg {
+  fill: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #39FF14 !important;
+  color: #000 !important;
+}
+
+.container-fluid {
+  padding-left: 0; 
+  padding-right: 0; 
+}
+
+/* Client Section */
+#klien .img-fluid {
+  max-width: 120px; 
+  height: auto; 
+  margin: 0 auto; 
+}
+
+/* Team Section */
+.team-member {
+  margin: 0 auto;
+}
+
+.team-img {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover;
+  margin-bottom: 10px; 
+}
+
+.team-member h5 {
+  color: #39ff14; 
+}
+
+.team-member p {
+  color: #fff; 
+}
+
+.text-muted {
+  color: #ccc; 
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+  border-top: 1px solid rgba(57, 255, 20, 0.1);
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+}
+
+.service-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  background-color: #39ff14 !important;
+  color: #000 !important;
+}
+
+.service-title {
+  color: #39ff14;
+  transition: color 0.3s ease;
+}
+
+.service-card:hover .service-title {
+  color: #000;
+}
+
+.service-description {
+  font-size: 14px;
+  height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.service-description::first-letter {
+  text-transform: uppercase;
+}
+
+.service-icon {
+  transition: filter 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  filter: brightness(0);
+}
+
+.portfolio-card {
+  cursor: pointer;
+}
+
+.portfolio-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-image {
+  transition: filter 0.3s ease;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-overlay-text {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.portfolio-card:hover .portfolio-image {
+  filter: blur(5px);
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.social-icon {
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    fill: black;
+    transform: scale(1.2);
+}
+
+.team-img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.team-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 50%, rgba(128, 128, 128, 0.7) 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.team-overlay-content {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.team-social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.team-img-container:hover .team-img {
+    filter: blur(5px);
+}
+
+.team-img-container:hover .team-overlay {
+    opacity: 1;
+}
+
+.client-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.client-link:hover {
+    transform: scale(1.1);
+}
+.client-img {
+    transition: filter 0.3s ease;
+}
+.client-link:hover .client-img {
+    filter: brightness(1.2) !important;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #1a1a1a;
+}
+
+.jumbotron .container-fluid {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+/* Project Cards Styling */
+.portfolio-card {
+  height: 100%;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  background: rgba(0, 0, 0, 0.8) !important;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  height: auto;
+  padding: 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  min-height: auto;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Update the portfolio section container */
+#portofolio .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+#portofolio .col-md-4 {
+  padding: 15px;
+  display: flex;
+}
+
+/* Remove scrollbar styles since we don't need them anymore */
+.card-body::-webkit-scrollbar,
+.card-body::-webkit-scrollbar-track,
+.card-body::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Add these styles for the popup */
+.portfolio-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.popup-content {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  min-width: 300px;
+  background: #111;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+}
+
+.popup-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-title {
+  color: #39FF14;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.close-popup {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  color: #39FF14;
+  font-size: 32px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.close-popup:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Improved animation */
+@keyframes fadeIn {
+  from { 
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.portfolio-popup.active {
+  display: flex;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .popup-content {
+    width: 95%;
+    padding: 20px;
+  }
+  
+  .popup-image {
+    height: 50vh;
+  }
+  
+  .close-popup {
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+  }
+}
+
+/* Make sure portfolio cards show the pointer cursor */
+.portfolio-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.cursor {
+    font-weight: 100;
+    color: #39FF14;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    background-color: rgba(57, 255, 20, 0.1);
+    border: 1px solid #39FF14;
+    border-radius: 20px;
+    color: #39FF14;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: #39FF14;
+    color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+}
+
+.skills-container {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
