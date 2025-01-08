@@ -43,24 +43,8 @@ web-portofolio/
 
 ---
 
-
----
-
-
----
-
-
----
-
-
----
-
 ## 👤 About the Author
 
 **Ikhsan Fauzan**  
 🌟 5th-semester Computer Engineering student passionate about IoT, Mechatronics, and modern web development.  
 📧 Contact me at: [ikhsanfauzan2812@gmail.com](mailto:ikhsanfauzan2812@gmail.com)  
-
----
-
-
