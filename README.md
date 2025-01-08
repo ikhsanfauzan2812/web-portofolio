@@ -31,7 +31,7 @@ web-portofolio/
 ## 🚀 Check my portofolio here
 
 1. **Clone the repository**:
-    ![My OPortofolio](https://portofolio-ikhsan.netlify.app/)  
+    [My Portofolio](https://portofolio-ikhsan.netlify.app/)  
 ---
 
 ## 🛠️ Technologies Used
